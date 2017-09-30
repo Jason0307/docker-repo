@@ -1,5 +1,10 @@
 # docker-livy
 A Docker image for [Livy, the REST Spark Server](https://github.com/cloudera/livy).
+## Build
+
+Download the livy package from [here](http://archive.cloudera.com/beta/livy/livy-server-0.2.0.zip) and then put to the Dockerfile folder
+
+`docker build -t livy .`
 
 ## Running 
 
